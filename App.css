@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-content {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #555;
+  margin-top: 30px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
