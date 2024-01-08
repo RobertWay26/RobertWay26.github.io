@@ -1,8 +1,8 @@
 /* Base styles */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff;
-    /* Light blue background */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f6f9;
+    /* Soft light blue background */
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -10,21 +10,25 @@ body {
 }
 
 a {
-    color: #007bff;
-    /* Blue color for links */
+    color: #1a73e8;
+    /* Soft blue for links */
+    text-decoration: none;
 }
 
 a:hover {
-    color: #0056b3;
-    /* Darker blue on hover */
+    color: #135eba;
+    /* Slightly darker blue on hover */
 }
 
 /* Header styles */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: #fff;
+    color: #1a73e8;
+    /* Blue color for header text */
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
 }
 
 header h1 {
@@ -33,58 +37,67 @@ header h1 {
 
 /* Navigation bar styles */
 nav ul {
-    background: #007bff;
-    /* Blue background for the navbar */
+    background: #ffffff;
+    /* White background for a cleaner look */
     overflow: hidden;
-    color: white;
+    color: #333;
     padding: 0;
     text-align: center;
     margin: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
 }
 
 nav ul li {
     display: inline;
-    padding: 20px;
+    padding: 15px 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
+    color: #1a73e8;
+    /* Soft blue for nav links */
+    font-weight: 500;
+    /* Slightly bolder font for better readability */
 }
 
 nav ul li a:hover {
-    background-color: #0056b3;
-    /* Darker blue on hover */
+    color: #135eba;
+    /* Slightly darker blue on hover */
 }
 
 /* Button styles */
 button,
 .btn {
-    background-color: #007bff;
-    /* Blue background for buttons */
+    background-color: #1a73e8;
+    /* Soft blue background for buttons */
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
+    border-radius: 2px;
+    /* Slightly rounded corners for a softer look */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
 }
 
 button:hover,
 .btn:hover {
-    background-color: #0056b3;
-    /* Darker blue on hover */
+    background-color: #135eba;
+    /* Slightly darker blue on hover */
 }
 
 /* Section styles */
 section {
-    padding: 20px;
+    padding: 40px 20px;
     margin: 20px 0;
 }
 
 /* Footer styles */
 footer {
-    background: #333;
+    background: #1a73e8;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+    font-size: 14px;
 }
